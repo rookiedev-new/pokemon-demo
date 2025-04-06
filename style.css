@@ -1,0 +1,70 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 15px;
+    margin: auto;
+    background-color: rgb(147, 61, 227);
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    width: 400px;
+   min-height: 460px;
+}
+.textdata{
+    width: 200px;
+    height: 23px;
+    text-align: center;
+    border: none;
+    font-size: 1.2rem;
+    margin: 5px;
+}
+button[type="submit"]{
+    background-color: red;
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;  
+}
+button:hover{
+    background-color: rgb(159, 4, 4);
+}
+.datacard{
+    box-shadow: 8px 8px  8px black;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width:300px;
+    max-width: 380px;
+    background:linear-gradient(70deg,yellow,rgb(50, 50, 248));
+    border-radius: 15px;
+    padding: 8px;
+}
+.pokename{
+    font-size: 2.5rem;
+    margin-top: 0;
+font-weight: bold;
+}
+.image{
+    margin-top: 5px;
+    height: 200px;
+ width: 200px;
+ filter: drop-shadow(10px 10px 4px black);
+ margin-bottom: 5px;
+}
+.image:hover{
+    filter: drop-shadow(10px 10px 6px black)
+}
+.poketype,.pokeability{
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing:1px;
+    margin-bottom: 10px;
+}
+.errordisplay{
+    font-size: 2rem;
+    text-align: center;
+}

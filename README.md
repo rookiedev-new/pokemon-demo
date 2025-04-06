@@ -1,2 +1,2 @@
 # pokemon-demo
-This my pokemon card like api data show stuff.
+This my pokemon card like thing which work on pokmeon api data to show stuff.

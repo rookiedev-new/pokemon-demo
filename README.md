@@ -1,3 +1,4 @@
 # pokemon-demo
 This my pokemon card like thing which work on pokmeon api data to show stuff.
-<br> testing
+<br> testing just for future
+<br> auothor : rookiedev 
